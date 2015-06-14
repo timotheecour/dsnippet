@@ -1,8 +1,7 @@
 OUT_D=/tmp/d31/
 
 LFLAGS=-L ~/install_tmp2/usr/local/lib -ldruntime-ldc -lphobos2-ldc -lcurl
-#LDC_X=~/install_tmp2/usr/local/bin/ldc2
-LDC_X=ldc2
+LDC_X=~/install_tmp2/usr/local/bin/ldc2
 EXE_F=${OUT_D}/out
 LIB_F=${OUT_D}/libfun.a
 
