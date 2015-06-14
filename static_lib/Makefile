@@ -1,3 +1,6 @@
+#works: make clean && make lib2 && make reexe2
+#fails: make clean && make lib && make reexe
+
 OUT_D=/tmp/d31/
 
 LFLAGS=-L ~/install_tmp2/usr/local/lib -ldruntime-ldc -lphobos2-ldc -lcurl
